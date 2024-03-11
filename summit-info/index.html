@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,500;0,600;0,700;1,400&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,500;0,600;0,700;1,400&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <title>Summit & Expo 2025</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav_container">
+        <div class="nav_logo_wrapper">
+          <img src="./assets/img/logo.svg" alt="" />
+        </div>
+        <div class="nav_date_wrapper">
+          <img src="./assets/img//summit_date.svg" alt="" />
+        </div>
+      </div>
+    </nav>
+    <div class="container_time">
+      <div class="timeLine_wrapper">
+        <div class="timeLine_number">
+          <div class="form_number_circle active" id="number_uno_wrapper">
+            <p class="form_number">1</p>
+          </div>
+
+          <img
+            id="uno_check"
+            class="number_blue"
+            src="./assets/img/check-blue.png"
+            alt=""
+          />
+        </div>
+        <div class="timeLine_number">
+          <div class="form_number_circle" id="number_dos_wrapper">
+            <p class="form_number">2</p>
+          </div>
+          <img
+            id="dos_check"
+            class="number_blue"
+            src="./assets/img/check-blue.png"
+            alt=""
+          />
+        </div>
+        <div class="timeLine_number">
+          <div class="form_number_circle" id="number_tres_wrapper">
+            <p class="form_number">3</p>
+          </div>
+          <img
+            id="tres_check"
+            class="number_blue"
+            src="./assets/img/check-blue.png"
+            alt=""
+          />
+        </div>
+        <div class="car_wrapper">
+          <img src="./assets/img/car.svg" alt="Car icon" />
+        </div>
+        <div class="timeLine_line"></div>
+      </div>
+    </div>
+
+    <section class="form_section">
+      <!--STEP-1------------------------------------------------------------------------------------->
+      <div class="step-1" >
+        <div class="container_questions">
+          <form id="form_step-1">
+            <div class="form_title_wrapper">
+              <p class="form_title">Información personal</p>
+            </div>
+            <div class="form_desc_wrapper">
+              <p class="form_desc">
+                Tu información será utilizada para tu gafete de acceso al
+                evento, por lo que te pedimos verifiques que esté correcta
+                Rellena todos los campos obligatorios, marcados con un asterisco
+                (<span class="text-red">*</span>).
+              </p>
+            </div>
+            <div class="form_wrapper">
+              <!-- Email /  Nombre-->
+              <div class="form_control pb-email">
+                <div class="form-field full-width">
+                  <label class="form_label" for="email"
+                    >Email<span class="text-red">*</span></label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input required"
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Email"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="form-field full-width">
+                  <label class="form_label" for="firstname"
+                    >Nombre<span class="text-red">*</span></label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input required required"
+                      type="text"
+                      id="firstname"
+                      name="firstname"
+                      placeholder="Nombre"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Apellidos -->
+              <div class="form_control">
+                <div class="form-field full-width">
+                  <label class="form_label" for="lastname"
+                    >Apellido paterno<span class="text-red">*</span></label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input required"
+                      type="text"
+                      id="lastname"
+                      name="lastname"
+                      placeholder="Apellido"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="form-field full-width">
+                  <label class="form_label" for="lastname_mother"
+                    >Apellido materno<span class="text-red">*</span></label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input required"
+                      type="text"
+                      id="lastname_mother"
+                      name="lastname_mother"
+                      placeholder="Apellido"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Linkedin -->
+              <div class="form_control linkedin_field">
+                <div class="form-field full-width">
+                  <label class="form_label" for="linkedin">Linkedin</label>
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input"
+                      type="text"
+                      id="linkedin"
+                      name="linkedin"
+                      placeholder="URL de Linkedin"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Whatsapp  -->
+
+              <p class="form_subtitle">
+                Recibe tu confirmación de registro en tu Whatsapp
+              </p>
+              <div class="form_control telefono">
+                <div class="form_select">
+                  <label class="form_label" for="">
+                    Código de País <span class="text-red">*</span></label
+                  >
+                  <!--Begin: Select Input -->
+                  <div class="selectbox">
+                    <div class="select countries_code" id="select" tabindex="0">
+                      <div
+                        class="contenido-select"
+                        id="user_country_code_container"
+                      >
+                        <h1 class="titulo">Selecciona tu pais</h1>
+                      </div>
+                      <img src="./assets/icons/bxs_up-arrow.png" alt="" />
+                    </div>
+
+                    <div class="opciones" id="opciones">
+      
+                    </div>
+                    <input
+                      class="inputSelect required"
+                      id="user_country_code"
+                      type="hidden"
+                      name="pais"
+                      
+                      value=""
+                    />
+                  </div>
+
+                  <!--End: Select Input -->
+                </div>
+                <div class="form-field full-width">
+                  <label class="form_label" for="phone"
+                    >Celular (solo números sin espacios)<span class="text-red"
+                      >*</span
+                    ></label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input required just_numbers"
+                      type="text"
+                      id="phone"
+                      name="phone"
+                      placeholder="Ej: 5554545454"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Begin Checkbox -->
+              <div class="form_control checkbox">
+                <div class="checkbox-wsp" tabindex="0">
+                  <input
+                    type="checkbox"
+                    name="whatsapp_preference"
+                    id="whatsapp_preference"
+                    checked
+                  />
+                  <label for="whatsapp_preference"></label>
+                  <label
+                    for="whatsapp_preference"
+                    class="checkbox-text form_label"
+                  >
+                    <u
+                      >Deseo recibir mi código de acceso al evento por WhastApp
+                    </u></label
+                  >
+                </div>
+              </div>
+              <!-- End Checkbox -->
+              <!-- Invitaciones -->
+              <p class="form_subtitle">
+                ¿Te gustaría invitar a un colega o a tu equipo de trabajo?
+              </p>
+              <div class="form_email_subtitle_wrapper">
+                <p class="form_label">Ingresa sus emails a continuación:</p>
+              </div>
+              <!-- Email Grid-->
+              <div class="form_emails_wrapper">
+                <div class="plus_symbol_wrapper" id="plus_symbol_wrapper">
+                  <img src="./assets/icons/plus-symbol.svg" alt="plus" />
+                </div>
+                <!--Begin Email Component -->
+                <div class="form-field emails full-width">
+                  <label class="form_label" for="guests">Email</label>
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input email_invite"
+                      type="email"
+                      id="guests"
+                      name="guests"
+                      placeholder="invitado@correo.com"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!--End Email Component -->
+                <!--Begin Email Component -->
+                <div class="form-field emails full-width">
+                  <label class="form_label" for="guests">Email</label>
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input email_invite"
+                      type="email"
+                      id="guests"
+                      name="guests"
+                      placeholder="invitado@correo.com"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!--End Email Component -->
+                <!--Begin Email Component -->
+                <div class="form-field emails full-width">
+                  <label class="form_label" for="guests">Email</label>
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input email_invite"
+                      type="email"
+                      id="guests"
+                      name="guests"
+                      placeholder="invitado@correo.com"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!--End Email Component -->
+              </div>
+            </div>
+            <p class="privacy_policy_text">
+              Al continuar estás aceptando la <a
+                class="privacy_policy_link"
+                target="_blank"
+                href="https://expo.thelogisticsworld.com/politica-de-privacidad/"
+                >política de privacidad</a
+              >
+            </p>
+            <div class="button_wrapper">
+              <button
+                class="primary_button"
+                type="submit"
+                id="submit_s1_button"
+              >
+                Siguiente
+                <img
+                  src="./assets/icons/arrow_next_button.svg"
+                  alt="Button arrow"
+                />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--STEP-1------------------------------------------------------------------------------------->
+      <!--STEP-2------------------------------------------------------------------------------------->
+      <div class="step-2"  >
+        <div class="container_questions">
+          <form action="" id="form_step-2">
+            <div class="form_title_wrapper">
+              <p class="form_title">Datos de la empresa</p>
+            </div>
+            <div class="form_desc_wrapper">
+              <p class="form_desc">
+                Rellena todos los campos obligatorios, marcados con un asterisco
+                (<span class="text-red">*</span>).
+              </p>
+            </div>
+            <div class="form_wrapper">
+              <!--  Nombre Empresa / sector -->
+              <div class="form_control pb-email">
+                <div class="form-field">
+                  <label class="form_label" for="company_name"
+                    >Nombre de la empresa<span class="text-red">*</span></label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input required"
+                      type="text"
+                      id="company_name"
+                      name="company_name"
+                      placeholder="Nombre de la empresa"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="form_select just_data">
+                  <label class="form_label" for="">
+                    Sector de la empresa <span class="text-red">*</span></label
+                  >
+              
+
+                  <details class="custom-select">
+                    <summary class="radios" id="businessSectors" tabindex="0">
+                      <img
+                        src="./assets/icons/bxs_up-arrow.png"
+                        alt=""
+                        class="arrow_select"
+                      />
+                      <input
+                        type="radio"
+                        name="businessSectors"
+                        id="default"
+                        title="Seleccione una opción"
+                        class="select_placeholder"
+                        checked
+                        tabindex="-1"
+                       /><!--
+                      <input
+                        type="radio"
+                        name="businessSectors"
+                        id="val1"
+                        title="item1"
+                        value="este es valor"                    
+                      />-->
+                    </summary>
+                    <ul class="list">
+                      <!--       <li>
+                        <label for="val1"> Item 1 </label>
+                      </li>
+                      -->
+                    </ul>
+                  </details>
+                </div>
+              </div>
+              <!-- Giro Empresa / Tamaño -->
+              <div class="form_control">
+                <div class="form_select just_data">
+                  <label class="form_label" for="">
+                    Giro de la empresa <span class="text-red">*</span></label
+                  >
+                  <!--Begin: Select Input -->
+                  <details class="custom-select">
+                    <summary class="radios" id="businessSubsectors"  tabindex="0">
+                      <img
+                        src="./assets/icons/bxs_up-arrow.png"
+                        alt=""
+                        class="arrow_select"
+                      />
+                      <input
+                        type="radio"
+                        name="businessSubsectors"
+                        id="default"
+                        class="select_placeholder"
+                        title="Seleccione una opción"
+                        checked
+                        tabindex="-1"
+                      />
+                    </summary>
+                    <ul class="list"></ul>
+                  </details>
+                  <!--End: Select Input -->
+                </div>
+                <div class="form_select just_data">
+                  <label class="form_label" for="">
+                    Tamaño de la empresa <span class="text-red">*</span></label
+                  >
+                  <!--Begin: Select Input -->
+                  <details class="custom-select">
+                    <summary class="radios" id="companySizes"  tabindex="0">
+                      <img
+                        src="./assets/icons/bxs_up-arrow.png"
+                        alt=""
+                        class="arrow_select"
+                      />
+                      <input
+                        type="radio"
+                        name="companySizes"
+                        id="default"
+                        class="select_placeholder"
+                        title="Seleccione una opción"
+                        checked
+                        tabindex="-1"
+                      />
+                    </summary>
+                    <ul class="list"></ul>
+                  </details>
+                  <!--End: Select Input -->
+                </div>
+              </div>
+              <!-- Telefono Empresa   -->
+              <div class="form_control telefono">
+                <div class="form_select">
+                  <label class="form_label" for="">
+                    Código de País <span class="text-red">*</span></label
+                  >
+                  <!--Begin: Select Input -->
+                  <div class="selectbox">
+                    <div class="select countries_code" id="select" tabindex="0">
+                      <div class="contenido-select"
+                      id="company_country_code_container"
+
+                      >
+                        <h1 class="titulo">Selecciona tu pais</h1>
+                      </div>
+                      <img src="./assets/icons/bxs_up-arrow.png" alt="" />
+                    </div>
+
+                    <div class="opciones" id="opciones">
+                      <!--
+                      <a href="#" class="opcion default">
+                        <div class="contenido-opcion">
+                          <img src="./assets/icons/argentina.png" alt="" />
+                          <div class="textos">
+                            <h1 class="titulo option">+54</h1>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                          <img src="./assets/icons/mexico.png" alt="" />
+                          <div class="textos">
+                            <h1 class="titulo option">+56</h1>
+                          </div>
+                        </div>
+                      </a>
+                      -->
+                    </div>
+                    <input
+                      class="inputSelect required"
+                      type="hidden"
+                      name="pais"
+                      id="company_country_code"                     
+                      value=""
+                    />
+                  </div>
+
+                  <!--End: Select Input -->
+                </div>
+                <div class="form-field full-width">
+                  <label class="form_label" for="company_phone"
+                    >Teléfono de la empresa (solo números sin espacios)<span
+                      class="text-red"
+                      >*</span
+                    ></label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input required just_numbers"
+                      type="text"
+                      id="company_phone"
+                      name="company_phone"
+                      placeholder="Ej: 5554545454"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pagina Web -->
+              <div class="form_control">
+                <div class="form-field full-width">
+                  <label class="form_label" for="website_company"
+                    >Página Web</label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input"
+                      type="text"
+                      id="website_company"
+                      name="website"
+                      placeholder="URL de Linkedin"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Cargo / Area -->
+              <div class="form_control telefono">
+                <div class="form_select just_data">
+                  <label class="form_label" for="">
+                    Cargo <span class="text-red">*</span></label
+                  >
+                  <!--Begin: Select Input -->
+                  <details class="custom-select">
+                    <summary class="radios" id="positions"  tabindex="0">
+                      <img
+                        src="./assets/icons/bxs_up-arrow.png"
+                        alt=""
+                        class="arrow_select"
+                      />
+                      <input
+                        type="radio"
+                        name="positions"
+                        id="default"
+                        class="select_placeholder"
+                        title="Seleccione una opción"
+                        checked
+                        tabindex="-1"
+                      />
+                    </summary>
+                    <ul class="list"></ul>
+                  </details>
+
+                  <!--End: Select Input -->
+                </div>
+                <div class="form_select just_data">
+                  <label class="form_label" for="">
+                    Área <span class="text-red">*</span></label
+                  >
+                  <!--Begin: Select Input -->
+                  <details class="custom-select">
+                    <summary class="radios" id="positionAreas"  tabindex="0">
+                      <img
+                        src="./assets/icons/bxs_up-arrow.png"
+                        alt=""
+                        class="arrow_select"
+                      />
+                      <input
+                        type="radio"
+                        name="positionAreas"
+                        id="default"
+                        class="select_placeholder"
+                        title="Seleccione una opción"
+                        checked
+                        tabindex="-1"
+                      />
+                    </summary>
+                    <ul class="list"></ul>
+                  </details>
+
+                  <!--End: Select Input -->
+                </div>
+              </div>
+              <div class="form_subtitle_wrapper">
+                <p class="form_subtitle">Dirección de la empresa</p>
+              </div>
+              <!--  Pais / Codigo postal -->
+              <div class="form_control telefono">
+                <div class="form_select just_data">
+                  <label class="form_label" for="">
+                    País <span class="text-red">*</span></label
+                  >
+                  <!--Begin: Select Input -->
+                  <details class="custom-select">
+                    <summary class="radios" id="countries"  tabindex="0">
+                      <img
+                        src="./assets/icons/bxs_up-arrow.png"
+                        alt=""
+                        class="arrow_select"
+                      />
+                      <input
+                        type="radio"
+                        name="countries"
+                        id="default"
+                        class="select_placeholder"
+                        title="Seleccione una opción"
+                        checked
+                        tabindex="-1"
+                      />
+                    </summary>
+                    <ul class="list"></ul>
+                  </details>
+                  <!--End: Select Input -->
+                </div>
+                <div class="form-field">
+                  <label class="form_label" for="cp"
+                    >Código Postal<span class="text-red">*</span></label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input required"
+                      type="text"
+                      id="cp"
+                      name="cp"
+                      placeholder="Código Postal"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!--  Estado /  municipio / Colonia -->
+              <div class="form_control">
+                <div class="form_select just_data">
+                  <label class="form_label" for="">
+                    Estado<span class="text-red">*</span></label
+                  >
+                  <!--Begin: Select Input -->
+                  <details class="custom-select">
+                    <summary class="radios" id="states"  tabindex="0">
+                      <img
+                        src="./assets/icons/bxs_up-arrow.png"
+                        alt=""
+                        class="arrow_select"
+                      />
+                      <input
+                        type="radio"
+                        name="states"
+                        id="default"
+                        class="select_placeholder"
+                        title="Seleccione una opción"
+                        checked
+                        tabindex="-1"
+                      />
+                  
+                    </summary>
+                    <ul class="list">
+                     
+                    </ul>
+                  </details>
+
+                  <!--End: Select Input -->
+                </div>
+                <!--Hidden  Alcaldía / Municipio (opcional)-->
+                <div class="form_select just_data delegation_noMex">
+                  <label class="form_label" for="">
+                    Alcaldía / Municipio (opcional)
+                    <!--<span class="text-red"></span>--></label
+                  >
+                  <!--Begin: Select Input -->
+                  <details class="custom-select" class="delegations_container  ">
+                    <summary class="radios" id="delegations"  tabindex="0">
+                      <img
+                        src="./assets/icons/bxs_up-arrow.png"
+                        alt=""
+                        class="arrow_select"
+                      />
+                      <input
+                        type="radio"
+                        name="delegations"
+                        id="default"
+                        class="select_placeholder"
+                        title="Seleccione una opción"
+                        checked
+                        tabindex="-1"
+                      />
+                  
+                    </summary>
+                    <ul class="list">                  
+                    </ul>
+                  </details>
+                  <!--End: Select Input -->
+                </div>
+                <!--Hidden-->
+                <!-- Colonias -->       
+                <div class="form-field delegation_mex">
+                  <label class="form_label" for="delegation_name"
+                    >Alcaldía / Municipio 
+                    </label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input "
+                      type="text"
+                      id="delegation_name"
+                      name="delegation_name"
+                      placeholder="Alcandía / Municipio"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="form_select just_data colonia_mex">
+                  <label class="form_label" for="">
+                    Colonia <span class="text-red">*</span></label>
+                  <!--Begin: Select Input -->
+                  <details class="custom-select">
+                    <summary class="radios" id="colonies"  tabindex="0">
+                      <img src="./assets/icons/bxs_up-arrow.png" alt="" class="arrow_select">
+                      <input type="radio" name="colonies" id="default" class="select_placeholder" title="Seleccione una opción" checked="" tabindex="-1">
+                    <!--  <input type="radio" name="colonies" id="val11" title="item11" value="este es valor11">-->
+                    </summary>
+                    <ul class="list">
+                      <li>
+                        <label for="val11"> Item 11 </label>
+                      </li>
+                    </ul>
+                  </details>
+
+                  <!--End: Select Input -->
+                </div>
+              </div>
+              <!--  Calle Numero / Colonia -->
+              <div class="form_control telefono">
+                <div class="form-field">
+                  <label class="form_label" for="street">
+                    Calle <span class="text-red">*</span></label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input required"
+                      type="text"
+                      id="street"
+                      name="street"
+                      placeholder="Calle"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="form-field">
+                  <label class="form_label" for="street_number"
+                    >Número<span class="text-red">*</span></label
+                  >
+                  <div class="form_input_wrapper">
+                    <input
+                      class="form_input required"
+                      type="text"
+                      id="street_number"
+                      name="street_number"
+                      placeholder="Número"
+                    />
+                    <img
+                      src="./assets/icons/icon-ok.svg"
+                      class="hero_input_result icon_ok"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/icons/icon-error.svg"
+                      class="hero_input_result icon_error"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="button_wrapper">
+              <button class="primary_button" type="submit">
+                Siguiente
+                <img
+                  src="./assets/icons/arrow_next_button.svg"
+                  alt="Button arrow"
+                />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--STEP-2------------------------------------------------------------------------------------->
+      <!--STEP-3------------------------------------------------------------------------------------->
+      <div class="step-3" >
+        <div class="container_questions">
+          <form id="form_step-3" id="form_step-3">
+            <div class="form_title_wrapper">
+              <p class="form_title">Intereses</p>
+            </div>
+
+            <div class="form_wrapper">
+              <div class="form_question1_wrapper">
+                <p class="form_question">
+                  1. ¿Has asistido al evento anteriormente?
+                </p>
+              </div>
+
+              <!--Question 1-->
+              <div class="form_radio_buttons_container">
+                <label class="container-radio" tabindex="0"
+                  >No, está es mi primera vez
+                  <input
+                    type="radio"
+                    name="past_events"
+                    checked="checked"
+                    value="false"
+                    tabindex="-1"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container-radio" tabindex="0"
+                  >Sí, he asistido antes
+                  <input
+                    type="radio"
+                    name="past_events"
+                    value="true"
+                    tabindex="-1"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <!--Question 2-->
+              <div class="form_question2_wrapper">
+                <p class="form_question">
+                  2. ¿Cuál es el principal motivo de tu visita?
+                </p>
+                <p class="form_question_subtitle">
+                  Puedes seleccionar más de una opción
+                </p>
+              </div>
+              <div class="form_checkbox_buttons_container" id="visitPurposes_container">
+                <!--
+                   <label class="container-checkbox-q" tabindex="0"
+                  >Proveeduría
+                  <input type="checkbox" name="proveduria " tabindex="-1" />
+                  <span class="checkmark-q" tabindex="-1"></span>
+                </label>
+                -->
+              </div>
+              <!--Question 3 -->
+              <div id="question3_container">              
+              <div class="form_question3_wrapper">
+                <p class="form_question">
+                  ¿Cuáles son las categorías de tu interés?
+                </p>
+                <p class="form_question_subtitle">
+                  Puedes seleccionar más de una opción
+                </p>
+              </div>
+              <div class="form_checkbox_buttons_container-2" id="suppliercategories_container">
+                
+                <div class="form_checkbox_column" id="supplier_column1">
+                <!-- 
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Comercio exterior
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q" tabindex="-1"></span>
+                  </label>
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Infraestructura y equipamiento para centros de distribución
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                  </label>
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Movimiento y control de materiales
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                  </label>
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Embalaje y suministros para protección de carga
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                  </label>
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Tecnologías (Software y Hardware)
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                  </label>
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Camiones y utilitarios
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                  </label>
+                  -->
+                </div>
+
+                <div class="form_checkbox_column" id="supplier_column2">
+                  <!--
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Transporte
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                  </label>
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Seguridad de carga y personas
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                  </label>
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Promotores inmobiliarios
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                  </label>
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Asesoramiento
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                  </label>
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Capacitación
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                  </label>
+                  <label class="container-checkbox-q" tabindex="0"
+                    >Asociaciones, cámaras y entitidades empresariales
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                  </label>
+                  <label
+                    id="checkbox_otro"
+                    class="container-checkbox-q"
+                    tabindex="0"
+                    >Otro (¿cuál?)
+                    <input type="checkbox" tabindex="-1" />
+                    <span class="checkmark-q"></span>
+                    <input
+                      id="input_otro_hidden"
+                      name="otro_input"
+                      type="text"
+                    />
+                  </label>
+                  -->
+                </div>              
+              </div>
+            </div>
+              <!-- Question 4-->
+              <div class="form_question2_wrapper">
+                <p class="form_question">
+                  3. Suscribete a nuestros newsletters
+                </p>
+              </div>
+              <div class="form_checkboxCard_buttons_container" id="newsletter_container">
+                <!--
+                <div class="form-element" tabindex="0">
+                  <input
+                    type="checkbox"
+                    name="logistica"
+                    value="logistica"
+                    id="logistica"
+                  />
+                  <label for="logistica">
+                    <div class="icon">
+                      <img
+                        class="checkbox_img_desktop"
+                        src="./assets/img/logistica.png"
+                        alt=""
+                      />
+                      <img
+                        class="checkbox_img_mobile"
+                        src="./assets//img/logistica-int-mob.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="title">Logística y distribución</div>
+                    <div class="subscription_tag_wrapper">
+                      <div class="subscription_tag">
+                        <p>SUSCRIPTO</p>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+                -->
+                <!--
+                <div class="form-element" tabindex="0">
+                  <input
+                    type="checkbox"
+                    name="gestion"
+                    value="gestion"
+                    id="gestion"
+                  />
+                  <label for="gestion">
+                    <div class="icon">
+                      <img
+                        class="checkbox_img_desktop"
+                        src="./assets/img/gestion.png"
+                        alt=""
+                      />
+                      <img
+                        class="checkbox_img_mobile"
+                        src="./assets//img/gestion-mob.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="title">Logística y distribución</div>
+                    <div class="subscription_tag_wrapper">
+                      <div class="subscription_tag">
+                        <p>SUSCRIPTO</p>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+                <div class="form-element" tabindex="0">
+                  <input
+                    type="checkbox"
+                    name="transporte"
+                    value="transporte"
+                    id="transporte"
+                  />
+                  <label for="transporte">
+                    <div class="icon">
+                      <img
+                        class="checkbox_img_desktop"
+                        src="./assets/img/transporte.png"
+                        alt=""
+                      />
+                      <img
+                        class="checkbox_img_mobile"
+                        src="./assets//img/transporte-mob.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="title">Transporte</div>
+                    <div class="subscription_tag_wrapper">
+                      <div class="subscription_tag">
+                        <p>SUSCRIPTO</p>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+                <div class="form-element" tabindex="0">
+                  <input
+                    type="checkbox"
+                    name="logistica-int"
+                    value="logistica-int"
+                    id="logistica-int"
+                  />
+                  <label for="logistica-int">
+                    <div class="icon">
+                      <img
+                        class="checkbox_img_desktop"
+                        src="./assets/img/logistica-int.png"
+                        alt=""
+                      />
+                      <img
+                        class="checkbox_img_mobile"
+                        src="./assets//img/logistica-int-mob.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="title">Logística internacional</div>
+                    <div class="subscription_tag_wrapper">
+                      <div class="subscription_tag">
+                        <p>SUSCRIPTO</p>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+                <div class="form-element" tabindex="0">
+                  <input
+                    type="checkbox"
+                    name="intralogistica"
+                    value="intralogistica"
+                    id="intralogistica"
+                  />
+                  <label for="intralogistica">
+                    <div class="icon">
+                      <img
+                        class="checkbox_img_desktop"
+                        src="./assets/img/intralogistica.png"
+                        alt=""
+                      />
+                      <img
+                        class="checkbox_img_mobile"
+                        src="./assets//img/intralogistica-mob.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="title">Intralogística</div>
+                    <div class="subscription_tag_wrapper">
+                      <div class="subscription_tag">
+                        <p>SUSCRIPTO</p>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+                -->
+              </div>
+
+              <div class="button_wrapper">
+                <button class="primary_button" type="submit">
+                  Finalizar
+                  <img
+                    src="./assets/icons/arrow_next_button.svg"
+                    alt="Button arrow"
+                  />
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--STEP-3------------------------------------------------------------------------------------->
+      <!--STEP-4------------------------------------------------------------------------------------->
+      <div class="step-4" style="display: block;">
+        <div class="container">
+          <div class="step_4_wrapper" id="form_step-4">
+            <div class="step_4_column_1">
+              <p class="form_title">Ya estas registrado al evento!</p>
+
+              <div class="step_4_desc_wrapper">
+                <p>
+                  Te esperamos en
+                  <b>THE LOGISTICS WORLD® | SUMMIT & EXPO</b> los días
+                  <b>19 y 20 de marzo de 2025, de 10:00 a 19:00 hs</b>, en el
+                  Centro Citibanamex de la Ciudad de México.
+                </p>
+                <p>
+                  Enviamos tu código QR de acceso al evento, al correo
+                  <a id="step_4_email" href="mailto:irico@b2blatam.com" class="step_4_desc_link"
+                    >irico@b2blatam.com</a
+                  >
+                  y al número de WhatsApp
+                  <a id="step_4_mobile" href="tel:+525547585954728" class="step_4_desc_link"
+                    >+52 5547585954728</a
+                  >
+                </p>
+              </div>
+              <div class="step_4_credential mobile">
+                <div class="credential_logo_wrapper">
+                  <img
+                    src="./assets/img/credential-logo.svg"
+                    alt="Credential Logo"
+                  />
+                </div>
+                <div class="credential_name_wrapper">
+                  <p>Carlos</p>
+                  <p>Fuentes</p>
+                </div>
+                <div class="credential_codigo_wrapper">
+                  <p class="credential_codigo_title">Código de acceso:</p>
+                  <p class="credential_codigo_number">1856823</p>
+                </div>
+                <div class="credential_qr_wrapper">
+                  <img src="./assets/img/qr-example.png" alt="QR Image" />
+                </div>
+
+                <div class="credential_footer">
+                  <p>VISITANTE</p>
+                </div>
+              </div>
+
+              <a href="#" class="step_4_linkedin_link">
+                <div class="step_4_linkedin_wrapper">
+                  <img
+                    src="./assets/icons/linkedin-logo.svg"
+                    alt="Linkedin Logo"
+                  />
+                  <p>¡Comparte que asistirás al evento con tus colegas!</p>
+                </div>
+              </a>
+              <div class="step_4_download_wrapper">
+                <div class="step_4_download_left">
+                  <p>
+                    Descarga la APP THE LOGISTICS WORLD y organiza tu visita
+                  </p>
+                  <div class="step_4_download_buttons">
+                    <a href="">
+                      <img src="./assets/icons/Apple.png" alt="" />
+                    </a>
+                    <a href="">
+                      <img src="./assets/icons/Google.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="step_4_download_right">
+                  <p>Patrocinado por</p>
+                  <img src="./assets/img/rectangle.png" alt="" />
+                </div>
+              </div>
+              <div class="step_4_separator_wrapper">
+                <div class="step_4_separator"></div>
+              </div>
+              <div class="step_4_requirements_wrapper">
+                <ul>
+                  <li>
+                    <div class="step_4_req_img_wrapper">
+                      <img src="./assets/icons/book.svg" alt="book icon" />
+                    </div>
+                    <div>
+                      <p>
+                        <span class="text_orange">ATENCIÓN: </span> Para
+                        ingresar es obligatorio mostrar una tarjeta de
+                        presentación o credencial de tu empresa, la cual
+                        acredite que trabajas en el rubro de logística, comercio
+                        exterior o carga.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="step_4_req_img_wrapper">
+                      <img
+                        src="./assets/icons/forbidden.svg"
+                        alt="Forbidden icon"
+                      />
+                    </div>
+                    <div>
+                      <p>
+                        No está permitido el ingreso a
+                        <b>estudiantes ni menores de 23 años.</b>
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="step_4_column_2">
+              <div class="step_4_credential desktop">
+                <div class="credential_logo_wrapper">
+                  <img
+                    src="./assets/img/credential-logo.svg"
+                    alt="Credential Logo"
+                  />
+                </div>
+                <div class="credential_name_wrapper">
+                  <p>Carlos</p>
+                  <p>Fuentes</p>
+                </div>
+                <div class="credential_codigo_wrapper">
+                  <p class="credential_codigo_title">Código de acceso:</p>
+                  <p class="credential_codigo_number">1856823</p>
+                </div>
+                <div class="credential_qr_wrapper">
+                  <img src="./assets/img/qr-example.png" alt="QR Image" />
+                </div>
+
+                <div class="credential_footer">
+                  <p>VISITANTE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--STEP-4------------------------------------------------------------------------------------->
+    </section>
+    <footer>
+      <p class="footer_text">
+        THE LOGISTICS WORLD® 2025 · TODOS LOS DERECHOS RESERVADOS
+      </p>
+    </footer>
+    <script src="./dropdowns.js"></script>
+    <script src="./checks.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
